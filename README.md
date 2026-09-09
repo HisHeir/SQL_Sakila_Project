@@ -6,3 +6,8 @@ Sakila database is a sample database in MSQL that allows beginners to practice, 
 
 ### Few Sample Questions
 **1. List all films with a rental rate greater than 2.99**
+```sql
+SELECT *
+FROM film
+WHERE rental_rate > 2.99;
+```
